@@ -1,0 +1,145 @@
+body{
+  font-family: "Montserrat",sans-serif;
+  text-align: center;
+}
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p{
+  color: grey;
+}
+
+/* Title Section */
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+  /* overflow: hidden; */
+}
+.container-fluid{
+  padding: 3% 10% 15%;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+}
+.dog-image{
+  /* transform: translateY(35%) rotate(25deg); */
+  width: 100%;
+  position: absolute;
+  transform: rotate(20deg);
+  margin-right: 20%;
+  margin-top: 25%;
+  /* clip-path:circle(50%); */
+  /* max-height:100%;*/
+  /* overflow:hidden; */
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.icon{
+  color:#ff4c68;
+  font-size: 5rem;
+  margin:5% 15%;
+}
+.icon:hover{
+  color: red;
+}
+/* Feature Section */
+#features{
+  padding: 5% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-heading{
+  font-size: 1.5rem;
+}
+/* Testimonials section */
+#testimonials{
+  background-color: #ef8471;
+  color: white;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+  margin-top: 50px;
+}
+.testimonial-heading,.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+/* Press section */
+#press{
+  background-color:#ef8471;
+  padding: 3%;
+
+}
+.press-logo{
+  width: 15%;
+  margin:5px 15px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+}
+.pricing{
+  padding-top: 2rem;
+}
+.pricing-heading{
+  font-size: 2rem;
+}
+/* cta section */
+#cta{
+  color: white;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  /* important padding */
+}
+.cta-title{
+  font-size: 4rem;
+  line-height: 1.5;
+  font-family: "Montserrat-Black";
+}
+.cart{
+  transform: rotate(-15deg);
+}
+/* footer section */
+#footer{
+  background-color: white;
+  padding: 7% 15%;
+}
+.foo{
+  font-size: 2rem;
+  padding: 2%;
+}
+.foo:hover{
+  color: red;
+}
+/* html media */
+@media (max-width:1028px) {
+  .dog-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
